@@ -41,7 +41,7 @@ ADD COLUMN description BLOB;
 #3b. Very quickly you realize that entering descriptions for each actor is too much effort. Delete the description column.
 
 ALTER TABLE actor
-DROP description;
+DROP COLUMN description;
 
 #4a. List the last names of actors, as well as how many actors have that last name.
 
